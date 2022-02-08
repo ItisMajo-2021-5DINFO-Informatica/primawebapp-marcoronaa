@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net5.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net5.0": []
   },
   "packageFolders": {
     "C:\\Users\\Utente\\.nuget\\packages\\": {},
@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Utente\\Documents\\GitHub\\primawebapp-marcoronaa\\WebAppCorona\\WebAppCorona\\WebAppCorona.csproj",
-      "projectName": "WebAppCorona",
-      "projectPath": "C:\\Users\\Utente\\Documents\\GitHub\\primawebapp-marcoronaa\\WebAppCorona\\WebAppCorona\\WebAppCorona.csproj",
+      "projectUniqueName": "C:\\Users\\Utente\\Documents\\GitHub\\primawebapp-marcoronaa\\CoronaWebApp\\CoronaWebApp\\CoronaWebApp.csproj",
+      "projectName": "CoronaWebApp",
+      "projectPath": "C:\\Users\\Utente\\Documents\\GitHub\\primawebapp-marcoronaa\\CoronaWebApp\\CoronaWebApp\\CoronaWebApp.csproj",
       "packagesPath": "C:\\Users\\Utente\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Utente\\Documents\\GitHub\\primawebapp-marcoronaa\\WebAppCorona\\WebAppCorona\\obj\\",
+      "outputPath": "C:\\Users\\Utente\\Documents\\GitHub\\primawebapp-marcoronaa\\CoronaWebApp\\CoronaWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -31,15 +31,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -50,8 +50,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "imports": [
           "net461",
           "net462",
@@ -62,6 +62,14 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
